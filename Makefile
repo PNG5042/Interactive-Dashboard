@@ -10,4 +10,4 @@ pipeline:
 	python data_subset_analysis.py
 
 dashboard:
-	streamlit run dashboard.py --server.address 0.0.0.0 --server.port 8501
+	python3 -m streamlit run dashboard.py --server.address 0.0.0.0 --server.port 8501
